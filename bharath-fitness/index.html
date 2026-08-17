@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharath Fitness Center - Premium Gym & Fitness</title>
+    <meta name="description" content="Bharath Fitness Center offering strength training, cardio, yoga, personal trainers, and affordable membership plans. Join today!">
+
+    <!-- Google Fonts (Barlow Condensed + Plus Jakarta Sans) & CSS Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Ambient Glow Background Effect -->
+    <div class="ambient-glow"></div>
+
+    <div class="app-container">
+
+        <!-- ==========================================================================
+             HEADER & NAVIGATION BAR
+             ========================================================================== -->
+        <header>
+            <div class="logo" data-view-target="home">
+                <div class="logo-icon">🏋️</div>
+                <div class="logo-text">
+                    <h1>BHARATH FITNESS</h1>
+                    <p>FITNESS CENTER</p>
+                </div>
+            </div>
+
+            <!-- Single Tab Navigation Menu -->
+            <nav id="mainNav">
+                <ul>
+                    <li><a data-view-target="home" class="active">Home</a></li>
+                    <li><a data-view-target="about">About</a></li>
+                    <li><a data-view-target="programs">Programs</a></li>
+                    <li><a data-view-target="trainers">Trainers</a></li>
+                    <li><a data-view-target="membership">Membership</a></li>
+                    <li><a data-view-target="schedule">Schedule</a></li>
+                    <li><a data-view-target="register">Register</a></li>
+                    <li><a data-view-target="contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button class="btn btn-primary btn-sm" data-view-target="register">
+                    JOIN GYM
+                </button>
+                <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle Navigation">
+                    ☰
+                </button>
+            </div>
+        </header>
+
+
+        <!-- ==========================================================================
+             MAIN CONTENT VIEW SWITCHER (SINGLE TAB PAGES)
+             ========================================================================== -->
+        <main>
+
+            <!-- ==========================================
+                 VIEW 1: HOME PAGE
+                 ========================================== -->
+            <section id="view-home" class="page-view active">
+                <div class="hero-wrapper">
+                    <div class="hero-text">
+                        <div class="hero-tag">
+                            🔥 Premium Fitness Experience in Kurnool
+                        </div>
+                        <h2>BUILD YOUR <span>DESIRED BODY</span> SHAPE</h2>
+                        <p>Transform your physique and mind with top-tier coaches, high-performance equipment, and custom workout plans designed for your success.</p>
+
+                        <div class="hero-cta">
+                            <button class="btn btn-primary" data-view-target="register">
+                                JOIN NOW 🚀
+                            </button>
+                            <button class="btn btn-outline" data-view-target="programs">
+                                EXPLORE PROGRAMS
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="hero-image-box">
+                        <img src="images/gym_hero.jpg" alt="Bharath Fitness Center Interior">
+                        <div class="hero-stats-overlay">
+                            <div class="stat-item">
+                                <div class="stat-number">500+</div>
+                                <div class="stat-label">Active Members</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">10+</div>
+                                <div class="stat-label">Expert Coaches</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">20+</div>
+                                <div class="stat-label">Weekly Classes</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Founder Bheemaiah Sir Spotlight on Home -->
+                <div class="glass-card founder-card" style="display: grid; grid-template-columns: 280px 1fr; gap: 2rem; align-items: center; margin-bottom: 2.5rem;">
+                    <div class="founder-image-wrapper" style="height: 280px; margin-bottom: 0;">
+                        <img src="images/trainer_sir.jpg" alt="Bheemaiah Sir - Founder & Head Master Coach">
+                    </div>
+                    <div>
+                        <span class="view-badge" style="background: rgba(245, 158, 11, 0.2); color: var(--accent-amber);">🏆 FOUNDER & HEAD COACH</span>
+                        <h3 style="font-size: 2.4rem; color: var(--text-primary); margin-bottom: 0.4rem;">BHEEMAIAH SIR</h3>
+                        <p style="color: var(--accent-gold); font-family: 'Barlow Condensed', sans-serif; font-size: 1.2rem; font-weight: 700; text-transform: uppercase; margin-bottom: 1rem;">
+                            Founder & Master Fitness Instructor
+                        </p>
+                        <p style="color: var(--text-secondary); font-size: 1rem; margin-bottom: 1.25rem; line-height: 1.6;">
+                            "At Bharath Fitness Center, our mission is to build a healthy, disciplined community. We guide every member step-by-step with tailored workouts, nutrition support, and constant motivation."
+                        </p>
+                        <button class="btn btn-outline btn-sm" data-view-target="trainers">VIEW FULL TEAM & PROFILES</button>
+                    </div>
+                </div>
+
+                <!-- Quick Features -->
+                <div class="home-features">
+                    <div class="glass-card feature-card">
+                        <div class="feature-icon-wrapper">💪</div>
+                        <h3>Modern Equipment</h3>
+                        <p>State-of-the-art machines and free weights for maximum efficiency and safety.</p>
+                    </div>
+                    <div class="glass-card feature-card">
+                        <div class="feature-icon-wrapper">👨‍🏫</div>
+                        <h3>Certified Trainers</h3>
+                        <p>Expert male & female coaches dedicated to personal guidance and results.</p>
+                    </div>
+                    <div class="glass-card feature-card">
+                        <div class="feature-icon-wrapper">🥗</div>
+                        <h3>Diet Guidance</h3>
+                        <p>Tailored nutritional advice to complement your training routine.</p>
+                    </div>
+                    <div class="glass-card feature-card">
+                        <div class="feature-icon-wrapper">🔥</div>
+                        <h3>Motivating Environment</h3>
+                        <p>Join a positive community focused on strength, discipline, and healthy living.</p>
+                    </div>
+                </div>
+
+                <!-- Page Switcher Bar -->
+                <div class="quick-view-switcher">
+                    <h3>Explore Gym Sections Instantly</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.95rem;">Click any section below to switch view directly inside this tab:</p>
+                    <div class="quick-buttons">
+                        <button class="btn btn-outline btn-sm" data-view-target="about">About Us</button>
+                        <button class="btn btn-outline btn-sm" data-view-target="programs">Fitness Programs</button>
+                        <button class="btn btn-outline btn-sm" data-view-target="trainers">Meet Trainers</button>
+                        <button class="btn btn-outline btn-sm" data-view-target="membership">Membership Plans</button>
+                        <button class="btn btn-outline btn-sm" data-view-target="schedule">Class Schedule</button>
+                        <button class="btn btn-outline btn-sm" data-view-target="contact">Contact & Location</button>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ==========================================
+                 VIEW 2: ABOUT US PAGE
+                 ========================================== -->
+            <section id="view-about" class="page-view">
+                <div class="view-header">
+                    <span class="view-badge">WHO WE ARE</span>
+                    <h2>ABOUT BHARATH FITNESS</h2>
+                    <p>Dedicated to fostering health, strength, and confidence across all fitness levels.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h3>Welcome to Your Fitness Destination</h3>
+                        <p>Bharath Fitness Center in Kurnool is a premier training facility engineered to help individuals achieve ambitious health and physique goals.</p>
+                        <p>Under the visionary leadership of <strong>Founder Bheemaiah Sir</strong>, our structured programs and supportive coaches ensure consistent progress and transformational health results.</p>
+
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <span class="highlight-icon">✓</span>
+                                <span>Spacious Air-Conditioned Arena</span>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="highlight-icon">✓</span>
+                                <span>Female & Male Expert Coaches</span>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="highlight-icon">✓</span>
+                                <span>Personalized Meal Plans</span>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="highlight-icon">✓</span>
+                                <span>Clean Changing & Locker Facilities</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card founder-card" style="padding: 1.5rem; text-align: center;">
+                        <div class="founder-image-wrapper" style="height: 320px;">
+                            <img src="images/trainer_sir.jpg" alt="Bheemaiah Sir - Founder">
+                        </div>
+                        <h3 style="font-size: 1.8rem; margin-top: 0.8rem;">BHEEMAIAH SIR</h3>
+                        <p style="color: var(--accent-gold); font-family: 'Barlow Condensed', sans-serif; font-weight: 700;">FOUNDER & HEAD MASTER TRAINER</p>
+                    </div>
+                </div>
+
+                <!-- Mission Vision Values -->
+                <div class="mission-vision-grid">
+                    <div class="glass-card">
+                        <div class="feature-icon-wrapper">🎯</div>
+                        <h3>Our Mission</h3>
+                        <p>Empower members through evidence-based exercise routines, motivational coaching, and sustainable nutrition habits.</p>
+                    </div>
+                    <div class="glass-card">
+                        <div class="feature-icon-wrapper">👁️</div>
+                        <h3>Our Vision</h3>
+                        <p>To cultivate a leading health community where every individual achieves optimum physical and mental wellness.</p>
+                    </div>
+                    <div class="glass-card">
+                        <div class="feature-icon-wrapper">⭐</div>
+                        <h3>Core Values</h3>
+                        <p>Discipline, inclusivity, consistency, safety, and unwavering dedication to member results.</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ==========================================
+                 VIEW 3: PROGRAMS PAGE
+                 ========================================== -->
+            <section id="view-programs" class="page-view">
+                <div class="view-header">
+                    <span class="view-badge">FITNESS CURRICULUM</span>
+                    <h2>OUR FITNESS PROGRAMS</h2>
+                    <p>Select a specialized program designed by professionals for your specific body goals.</p>
+                </div>
+
+                <div class="programs-grid">
+                    <!-- Program 1 -->
+                    <div class="glass-card">
+                        <img src="images/workout_strength.jpg" alt="Strength Training" class="program-card-img">
+                        <div class="program-card-body">
+                            <h3>Strength & Hypertrophy <span style="font-size: 1.2rem;">🏋️</span></h3>
+                            <p>Progressive weight lifting routines focused on muscle growth, compound movements, and raw power development.</p>
+                            <div class="program-meta">
+                                <span class="program-tag">60 Min Sessions</span>
+                                <button class="btn btn-outline btn-sm" data-view-target="register">JOIN PROGRAM</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Program 2 -->
+                    <div class="glass-card">
+                        <img src="images/gym_hero.jpg" alt="Cardio & Fat Loss" class="program-card-img">
+                        <div class="program-card-body">
+                            <h3>Cardio & Weight Loss <span style="font-size: 1.2rem;">🏃</span></h3>
+                            <p>High-energy aerobic workouts, treadmills, ellipticals, and HIIT routines crafted to maximize calorie burn.</p>
+                            <div class="program-meta">
+                                <span class="program-tag">Fat Burn Focus</span>
+                                <button class="btn btn-outline btn-sm" data-view-target="register">JOIN PROGRAM</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Program 3 -->
+                    <div class="glass-card">
+                        <img src="images/trainer_ananya.jpg" alt="Yoga & Flexibility" class="program-card-img">
+                        <div class="program-card-body">
+                            <h3>Yoga & Mobility <span style="font-size: 1.2rem;">🧘</span></h3>
+                            <p>Restorative stretching, posture correction, and breathwork to improve flexibility and release muscular tension.</p>
+                            <div class="program-meta">
+                                <span class="program-tag">Recovery & Flow</span>
+                                <button class="btn btn-outline btn-sm" data-view-target="register">JOIN PROGRAM</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Program 4 -->
+                    <div class="glass-card">
+                        <img src="images/trainer_priya.jpg" alt="Personal Coaching" class="program-card-img">
+                        <div class="program-card-body">
+                            <h3>1-on-1 Personal Training <span style="font-size: 1.2rem;">🎯</span></h3>
+                            <p>Dedicated personal coach overseeing every repetition, customized diet plan, and continuous motivation.</p>
+                            <div class="program-meta">
+                                <span class="program-tag">100% Customized</span>
+                                <button class="btn btn-outline btn-sm" data-view-target="register">JOIN PROGRAM</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ==========================================
+                 VIEW 4: TRAINERS PAGE (BHEEMAIAH SIR & COACHES TEAM)
+                 ========================================== -->
+            <section id="view-trainers" class="page-view">
+                <div class="view-header">
+                    <span class="view-badge">EXPERT COACHES</span>
+                    <h2>MEET OUR FOUNDER & TRAINERS</h2>
+                    <p>Our team is headed by Founder Bheemaiah Sir alongside certified male and female fitness professionals.</p>
+                </div>
+
+                <!-- Gender Filter Pills -->
+                <div class="trainers-filter">
+                    <button class="filter-btn trainer-filter-btn active" data-gender="all">All Trainers</button>
+                    <button class="filter-btn trainer-filter-btn" data-gender="male">Male Trainers 🏋️‍♂️</button>
+                    <button class="filter-btn trainer-filter-btn" data-gender="female">Female Trainers 🧘‍♀️</button>
+                </div>
+
+                <div class="trainers-grid">
+                    <!-- BHEEMAIAH SIR TRAINER CARD -->
+                    <div class="glass-card trainer-card founder-card" data-gender="male">
+                        <div class="founder-ribbon">🏆 FOUNDER & MASTER COACH</div>
+                        <div class="founder-image-wrapper">
+                            <img src="images/trainer_sir.jpg" alt="Founder Bheemaiah Sir">
+                        </div>
+                        <h3 style="font-size: 1.8rem; color: var(--accent-amber);">BHEEMAIAH SIR</h3>
+                        <div class="trainer-title" style="color: var(--accent-gold); font-size: 1.1rem;">Founder & Head Master Coach</div>
+                        <p class="trainer-spec">Visionary Founder of Bharath Fitness Center. Master Strength, Bodybuilding & Overall Fitness Coach.</p>
+                        <button class="btn btn-primary btn-sm" onclick="openModal('Founder Bheemaiah Sir Profile', '<p><strong>Bheemaiah Sir</strong> is the Founder and Head Master Coach of Bharath Fitness Center. With deep passion for health and fitness, he founded Bharath Fitness Center to bring elite, modern training facilities and supportive coaching to members of all fitness levels.</p>')">
+                            VIEW FOUNDER BIO 👑
+                        </button>
+                    </div>
+
+                    <!-- Trainer 2 (Female) -->
+                    <div class="glass-card trainer-card" data-gender="female">
+                        <div class="trainer-img-box">
+                            <img src="images/trainer_priya.jpg" alt="Coach Priya Sharma">
+                            <span class="trainer-gender-badge">Female Coach</span>
+                        </div>
+                        <h3>Priya Sharma</h3>
+                        <div class="trainer-title">Head Weight Loss & Fitness Coach</div>
+                        <p class="trainer-spec">Specializes in Women\'s Fitness, Body Recomposition & HIIT Training (6+ Yrs Exp)</p>
+                        <button class="btn btn-outline btn-sm" onclick="openModal('Coach Priya Sharma Profile', '<p>Priya Sharma leads our female personal training and weight loss programs. She designs customized workouts for women focusing on body toning, fat burn, and metabolic conditioning.</p>')">
+                            VIEW PROFILE
+                        </button>
+                    </div>
+
+                    <!-- Trainer 3 (Female) -->
+                    <div class="glass-card trainer-card" data-gender="female">
+                        <div class="trainer-img-box">
+                            <img src="images/trainer_ananya.jpg" alt="Coach Ananya Roy">
+                            <span class="trainer-gender-badge">Female Coach</span>
+                        </div>
+                        <h3>Ananya Roy</h3>
+                        <div class="trainer-title">Yoga, Pilates & Mobility Expert</div>
+                        <p class="trainer-spec">Specializes in Core Stability, Flexibility, Breathing & Posture Correction (5+ Yrs Exp)</p>
+                        <button class="btn btn-outline btn-sm" onclick="openModal('Coach Ananya Roy Profile', '<p>Ananya is an international certified Yoga & Pilates instructor. She leads daily morning and evening flexibility flow sessions tailored for stress relief and posture enhancement.</p>')">
+                            VIEW PROFILE
+                        </button>
+                    </div>
+
+                    <!-- Trainer 4 (Male) -->
+                    <div class="glass-card trainer-card" data-gender="male">
+                        <div class="trainer-img-box">
+                            <img src="images/workout_strength.jpg" alt="Coach Arjun Reddy">
+                            <span class="trainer-gender-badge">Male Coach</span>
+                        </div>
+                        <h3>Arjun Reddy</h3>
+                        <div class="trainer-title">Cardio & Functional Master Coach</div>
+                        <p class="trainer-spec">Specializes in Athletic Speed, Endurance, Agility & HIIT (7+ Yrs Exp)</p>
+                        <button class="btn btn-outline btn-sm" onclick="openModal('Coach Arjun Reddy Profile', '<p>Arjun leads our high-intensity functional zone training. His dynamic workouts improve stamina, cardiovascular health, and athletic endurance.</p>')">
+                            VIEW PROFILE
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ==========================================
+                 VIEW 5: MEMBERSHIP PAGE
+                 ========================================== -->
+            <section id="view-membership" class="page-view">
+                <div class="view-header">
+                    <span class="view-badge">MEMBERSHIP PACKAGES</span>
+                    <h2>SELECT YOUR MEMBERSHIP</h2>
+                    <p>Transparent pricing with full access to gym facilities and trainer guidance.</p>
+                </div>
+
+                <div class="pricing-grid">
+                    <!-- Basic Plan -->
+                    <div class="glass-card plan-card">
+                        <div>
+                            <h3 class="plan-title">BASIC PLAN</h3>
+                            <div class="plan-price">₹999 <span>/ month</span></div>
+                            <ul class="plan-features">
+                                <li class="included">Full Gym Floor Access</li>
+                                <li class="included">Cardio & Weight Equipment</li>
+                                <li class="included">Locker & Changing Room</li>
+                                <li class="included">General Trainer Support</li>
+                                <li class="not-included">1-on-1 Personal Trainer</li>
+                                <li class="not-included">Customized Diet Chart</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-outline" data-view-target="register">CHOOSE BASIC</button>
+                    </div>
+
+                    <!-- Standard Plan (Popular) -->
+                    <div class="glass-card plan-card popular">
+                        <div class="popular-ribbon">POPULAR</div>
+                        <div>
+                            <h3 class="plan-title" style="color: var(--accent-gold);">STANDARD PLAN</h3>
+                            <div class="plan-price">₹1,999 <span>/ month</span></div>
+                            <ul class="plan-features">
+                                <li class="included">Full Gym Access (All Slots)</li>
+                                <li class="included">All Cardio & Weight Equipment</li>
+                                <li class="included">Group Class Access (Yoga & HIIT)</li>
+                                <li class="included">Locker & Changing Room</li>
+                                <li class="included">Monthly Progress Tracking</li>
+                                <li class="not-included">Dedicated Personal Coach</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-primary" data-view-target="register">CHOOSE STANDARD</button>
+                    </div>
+
+                    <!-- Premium Plan -->
+                    <div class="glass-card plan-card">
+                        <div>
+                            <h3 class="plan-title">PREMIUM VIP</h3>
+                            <div class="plan-price">₹2,999 <span>/ month</span></div>
+                            <ul class="plan-features">
+                                <li class="included">Unlimited Gym Access</li>
+                                <li class="included">Dedicated Personal Coach (Bheemaiah Sir / Team)</li>
+                                <li class="included">Customized Nutrition & Diet Plan</li>
+                                <li class="included">All Group Classes (Yoga, HIIT, Strength)</li>
+                                <li class="included">VIP Locker & Steam Room Access</li>
+                                <li class="included">Weekly Progress Evaluation</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-outline" data-view-target="register">CHOOSE PREMIUM</button>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ==========================================
+                 VIEW 6: SCHEDULE PAGE
+                 ========================================== -->
+            <section id="view-schedule" class="page-view">
+                <div class="view-header">
+                    <span class="view-badge">TIMETABLE</span>
+                    <h2>WORKOUT & CLASS SCHEDULE</h2>
+                    <p>Flexible morning, afternoon, and evening sessions to suit your schedule.</p>
+                </div>
+
+                <div class="trainers-filter">
+                    <button class="filter-btn schedule-filter-btn active" data-category="all">All Classes</button>
+                    <button class="filter-btn schedule-filter-btn" data-category="strength">Strength</button>
+                    <button class="filter-btn schedule-filter-btn" data-category="cardio">Cardio HIIT</button>
+                    <button class="filter-btn schedule-filter-btn" data-category="yoga">Yoga & Mobility</button>
+                </div>
+
+                <div class="schedule-table-wrapper">
+                    <table class="schedule-table">
+                        <thead>
+                            <tr>
+                                <th>Time Slot</th>
+                                <th>Class Name</th>
+                                <th>Category</th>
+                                <th>Lead Coach</th>
+                                <th>Location</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="schedule-row" data-category="strength">
+                                <td>06:00 AM - 07:30 AM</td>
+                                <td><strong>Morning Heavy Strength</strong></td>
+                                <td><span class="class-tag tag-strength">Strength</span></td>
+                                <td>Bheemaiah Sir & Team</td>
+                                <td>Main Weight Floor</td>
+                                <td><button class="btn btn-outline btn-sm" data-view-target="register">Book</button></td>
+                            </tr>
+                            <tr class="schedule-row" data-category="yoga">
+                                <td>07:00 AM - 08:00 AM</td>
+                                <td><strong>Sunrise Yoga & Flow</strong></td>
+                                <td><span class="class-tag tag-yoga">Yoga</span></td>
+                                <td>Coach Ananya Roy</td>
+                                <td>Studio Room A</td>
+                                <td><button class="btn btn-outline btn-sm" data-view-target="register">Book</button></td>
+                            </tr>
+                            <tr class="schedule-row" data-category="cardio">
+                                <td>08:30 AM - 09:30 AM</td>
+                                <td><strong>Fat Burn Cardio HIIT</strong></td>
+                                <td><span class="class-tag tag-cardio">Cardio</span></td>
+                                <td>Coach Priya Sharma</td>
+                                <td>Cardio Zone</td>
+                                <td><button class="btn btn-outline btn-sm" data-view-target="register">Book</button></td>
+                            </tr>
+                            <tr class="schedule-row" data-category="strength">
+                                <td>05:00 PM - 06:30 PM</td>
+                                <td><strong>Evening Muscle Building</strong></td>
+                                <td><span class="class-tag tag-strength">Strength</span></td>
+                                <td>Bheemaiah Sir & Team</td>
+                                <td>Main Arena</td>
+                                <td><button class="btn btn-outline btn-sm" data-view-target="register">Book</button></td>
+                            </tr>
+                            <tr class="schedule-row" data-category="yoga">
+                                <td>06:30 PM - 07:30 PM</td>
+                                <td><strong>Evening De-Stress Yoga</strong></td>
+                                <td><span class="class-tag tag-yoga">Yoga</span></td>
+                                <td>Coach Ananya Roy</td>
+                                <td>Studio Room A</td>
+                                <td><button class="btn btn-outline btn-sm" data-view-target="register">Book</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+            <!-- ==========================================
+                 VIEW 7: REGISTER PAGE
+                 ========================================== -->
+            <section id="view-register" class="page-view">
+                <div class="view-header">
+                    <span class="view-badge">ONLINE ENROLLMENT</span>
+                    <h2>REGISTER FOR MEMBERSHIP</h2>
+                    <p>Fill out the form below to lock in your membership rate instantly.</p>
+                </div>
+
+                <div class="form-layout">
+                    <div class="form-info">
+                        <h3>Start Your Fitness Journey Today!</h3>
+                        <p>Our team will contact you within 2 hours to confirm your membership slot and answer any questions.</p>
+
+                        <div class="info-list">
+                            <div class="info-item">
+                                <div class="info-icon">📍</div>
+                                <div>
+                                    <strong>Gym Address</strong>
+                                    <p style="color: var(--text-secondary); font-size: 0.9rem;">Main Road, Near Flyover, Kurnool, Andhra Pradesh</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-icon">📞</div>
+                                <div>
+                                    <strong>Phone Hotline</strong>
+                                    <p style="color: var(--text-secondary); font-size: 0.9rem;">+91 98765 43210 / +91 91234 56789</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-icon">⏰</div>
+                                <div>
+                                    <strong>Gym Timing</strong>
+                                    <p style="color: var(--text-secondary); font-size: 0.9rem;">Mon - Sat: 6:00 AM - 9:00 PM | Sun: 7:00 AM - 12:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card">
+                        <form id="registerForm">
+                            <div class="form-group">
+                                <label for="regName">Full Name *</label>
+                                <input type="text" id="regName" class="form-control" placeholder="Enter your full name" required>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="regPhone">Phone Number *</label>
+                                    <input type="tel" id="regPhone" class="form-control" placeholder="10-digit mobile" maxlength="10" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="regEmail">Email Address</label>
+                                    <input type="email" id="regEmail" class="form-control" placeholder="name@example.com">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="regPlan">Select Plan *</label>
+                                    <select id="regPlan" class="form-control" required>
+                                        <option value="Basic (₹999/mo)">Basic Plan (₹999 / mo)</option>
+                                        <option value="Standard (₹1,999/mo)" selected>Standard Plan (₹1,999 / mo)</option>
+                                        <option value="Premium VIP (₹2,999/mo)">Premium VIP Plan (₹2,999 / mo)</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="regTrainer">Preferred Trainer Guidance</label>
+                                    <select id="regTrainer" class="form-control">
+                                        <option value="Bheemaiah Sir Guidance">Founder Bheemaiah Sir Guidance</option>
+                                        <option value="Female Trainer">Female Trainer Guidance</option>
+                                        <option value="Male Trainer">Male Trainer Guidance</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="regNotes">Fitness Goals / Notes</label>
+                                <textarea id="regNotes" class="form-control" rows="3" placeholder="Tell us your goals (e.g. weight loss, strength, yoga)..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">
+                                CONFIRM REGISTRATION 🚀
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ==========================================
+                 VIEW 8: CONTACT PAGE
+                 ========================================== -->
+            <section id="view-contact" class="page-view">
+                <div class="view-header">
+                    <span class="view-badge">GET IN TOUCH</span>
+                    <h2>CONTACT US</h2>
+                    <p>Have questions about membership, timing, or personal training? Reach out to us!</p>
+                </div>
+
+                <div class="form-layout">
+                    <div class="form-info">
+                        <h3>We Are Here To Support You</h3>
+                        <p>Visit Bharath Fitness Center or drop a message. Our team is ready to guide your fitness journey.</p>
+
+                        <div class="info-list">
+                            <div class="info-item">
+                                <div class="info-icon">📍</div>
+                                <div>
+                                    <strong>Location</strong>
+                                    <p style="color: var(--text-secondary); font-size: 0.9rem;">Bharath Fitness Center, Main Road, Kurnool, Andhra Pradesh</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-icon">✉️</div>
+                                <div>
+                                    <strong>Email Inquiry</strong>
+                                    <p style="color: var(--text-secondary); font-size: 0.9rem;">bharathfitness@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="contactName">Your Name *</label>
+                                <input type="text" id="contactName" class="form-control" placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactPhone">Phone Number *</label>
+                                <input type="tel" id="contactPhone" class="form-control" placeholder="Enter 10-digit number" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactMessage">Message *</label>
+                                <textarea id="contactMessage" class="form-control" rows="4" placeholder="Write your question here..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">SEND MESSAGE</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+
+        <!-- ==========================================================================
+             MODAL POPUP DIALOG CONTAINER
+             ========================================================================== -->
+        <div class="modal-overlay" id="modalOverlay">
+            <div class="modal-box">
+                <button class="modal-close" id="modalClose">&times;</button>
+                <h3 id="modalTitle" style="font-size: 1.5rem; color: var(--accent-gold); margin-bottom: 1rem;">Modal Title</h3>
+                <div id="modalBody" style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">
+                    Modal content goes here...
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ==========================================================================
+             TOAST NOTIFICATION CONTAINER
+             ========================================================================== -->
+        <div class="toast-notification" id="toastNotification">
+            <span style="font-size: 1.2rem;">✅</span>
+            <span id="toastMessage">Action completed successfully!</span>
+        </div>
+
+
+        <!-- ==========================================================================
+             FOOTER
+             ========================================================================== -->
+        <footer>
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4 style="color: var(--text-primary); font-size: 1.3rem; margin-bottom: 0.8rem;">BHARATH FITNESS</h4>
+                    <p>Your premier destination in Kurnool for strength, health, and total physical transformation.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Page View Links</h4>
+                    <ul>
+                        <li><a data-view-target="home">Home</a></li>
+                        <li><a data-view-target="about">About Us</a></li>
+                        <li><a data-view-target="programs">Programs</a></li>
+                        <li><a data-view-target="trainers">Trainers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Membership & Contact</h4>
+                    <ul>
+                        <li><a data-view-target="membership">Membership Plans</a></li>
+                        <li><a data-view-target="schedule">Class Timetable</a></li>
+                        <li><a data-view-target="register">Online Registration</a></li>
+                        <li><a data-view-target="contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Gym Hours</h4>
+                    <p>📍 Main Road, Kurnool, A.P.</p>
+                    <p>📞 +91 98765 43210</p>
+                    <p>⏰ Mon - Sat: 6:00 AM - 9:00 PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Bharath Fitness Center. All Rights Reserved.</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Script File -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
